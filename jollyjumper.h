@@ -1,2 +1,4 @@
 #pragma once
-int isJollyJumber(const int seq[], int size);
+#include <stdbool.h>
+
+bool isJollyJumber(const int seq[], int size);
